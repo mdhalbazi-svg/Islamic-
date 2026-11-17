@@ -1,0 +1,15 @@
+:root{--g:#0b6b4f;--gold:#c9a227;--bg:#f6faf7}
+*{box-sizing:border-box}body{margin:0;font-family:"Noto Naskh Arabic","Noto Nastaliq Urdu",system-ui,sans-serif;background:var(--bg);color:#1b2b24;padding-bottom:70px}
+header{background:var(--g);color:#fff;padding:14px;display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid var(--gold)}
+header h1{font-size:20px;margin:0}header button{background:var(--gold);border:0;border-radius:8px;padding:6px 10px}
+.sub{text-align:center;padding:8px;color:var(--g);font-weight:bold}main{padding:10px}
+.card{background:#fff;border:1px solid #d9e8df;border-radius:12px;padding:12px;margin-bottom:10px}
+.card h3{margin:0 0 8px;color:var(--g)}label{display:block;margin:6px 0}
+input[type=text],input[type=number],input[type=date],input[type=time],textarea,select{width:100%;padding:8px;border:1px solid #bcd;border-radius:8px;font:inherit}
+button.b{background:var(--g);color:#fff;border:0;border-radius:8px;padding:8px 12px;margin:3px}button.g{background:var(--gold);color:#000}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#fff;border-top:2px solid var(--gold);padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;border:0;background:none;padding:10px 2px;font:inherit;font-size:12px}nav button.on{color:var(--g);font-weight:bold}
+.bar{height:10px;background:#dde;border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;background:var(--g)}
+.cnt{font-size:28px;text-align:center}.ar{font-size:22px;direction:rtl}
+table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid #ddd;padding:4px;text-align:start}
+@media print{header,nav,button{display:none}}
